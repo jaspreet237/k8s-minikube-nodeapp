@@ -1,9 +1,10 @@
 {
-  "name": "nodejs-demo-app",
+  "name": "nodejs-k8s-demo",
   "version": "1.0.0",
+  "description": "Simple Node.js HTTP server for Kubernetes demo",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"No tests yet\" && exit 0"
-  }
+    "start": "node app.js"
+  },
+  "dependencies": {}
 }
